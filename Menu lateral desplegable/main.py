@@ -93,11 +93,8 @@ class MiApp(QMainWindow):
 		else:
 			self.showNormal()
 
-
 if __name__ == "__main__":
      app = QApplication(sys.argv)
      mi_app = MiApp()
      mi_app.show()
      sys.exit(app.exec_())	
-
-
